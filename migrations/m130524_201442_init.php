@@ -1,6 +1,6 @@
 <?php
 
-use apaoww\oci8\Schema;
+use bogdik\oci8\Schema;
 use yii\db\Migration;
 
 class m130524_201442_init extends Migration

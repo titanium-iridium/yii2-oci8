@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace apaoww\oci8;
+namespace bogdik\oci8;
 
 //use yii\base\Object;
 

@@ -6,7 +6,7 @@
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
     "support": {
-        "issues": "https://github.com/bogdik/yii2-oci8/issues",
+        "issues": "https://github.com/apaoww/yii2-oci8/issues",
         "source": "https://github.com/bogdik/yii2-oci8"
     },
     "authors": [
@@ -21,6 +21,11 @@
     "autoload": {
         "psr-4": {
             "bogdik\\oci8\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0"
         }
     }
 }

@@ -1,5 +1,5 @@
 <?php
-namespace bogdik\oci8;
+namespace titanium_iridium\oci8;
 require_once('pdo/Oci8PDO.php');
 
 use yii;
@@ -9,7 +9,7 @@ class Oci8DbConnection extends Connection
 {
 
     public $pdoClass = 'Oci8PDO';
-    public $schemaMap = ['oci8'=>'bogdik\oci8\Schema'];
+    public $schemaMap = ['oci8'=>'titanium_iridium\oci8\Schema'];
 
 
 

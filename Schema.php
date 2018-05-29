@@ -3,7 +3,7 @@
  * @Author Apa Oww
  */
 
-namespace bogdik\oci8;
+namespace titanium_iridium\oci8;
 
 use yii\base\InvalidCallException;
 use yii\db\Connection;
@@ -340,6 +340,6 @@ EOD;
      */
     protected function createColumnSchema()
     {
-        return Yii::createObject('bogdik\oci8\ColumnSchema');
+        return Yii::createObject('titanium_iridium\oci8\ColumnSchema');
     }
 }

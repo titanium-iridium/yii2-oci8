@@ -1,6 +1,6 @@
 <?php
 
-use bogdik\oci8\Schema;
+use titanium_iridium\oci8\Schema;
 use yii\db\Migration;
 
 class m130524_201442_init extends Migration

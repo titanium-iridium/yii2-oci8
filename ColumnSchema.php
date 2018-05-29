@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace bogdik\oci8;
+namespace titanium_iridium\oci8;
 
 //use yii\base\Object;
 

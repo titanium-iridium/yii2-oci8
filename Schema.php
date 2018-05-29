@@ -45,7 +45,7 @@ class Schema extends \yii\db\Schema
      */
     public function quoteSimpleTableName($name)
     {
-        return strpos($name, '"') !== false ? $name : '' . $name . '';
+        return strpos($name, '"') !== false ? $name : '"' . $name . '"';
     }
 
     /**

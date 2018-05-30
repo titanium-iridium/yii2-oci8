@@ -23,7 +23,8 @@ class ColumnSchemaBuilder extends AbstractColumnSchemaBuilder
      */
     protected function buildUnsignedString()
     {
-        return $this->isUnsigned ? ' UNSIGNED' : '';
+        // UNSIGNED not supported in Oracle
+        return '';
     }
 
     /**

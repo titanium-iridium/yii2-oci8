@@ -342,4 +342,12 @@ EOD;
     {
         return Yii::createObject('titanium_iridium\oci8\ColumnSchema');
     }
+    
+    /**
+     * {@inheritdoc}
+     */
+    public function createColumnSchemaBuilder($type, $length = null)
+    {
+        return new ColumnSchemaBuilder($type, $length, $this->db);
+    }
 }

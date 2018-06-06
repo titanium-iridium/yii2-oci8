@@ -189,6 +189,7 @@ EOD;
         if ($this->db->isActive) {
             // get the last insert id from the master connection
             if ($sequenceName != null) {
+                $sequenceName = $this->quoteSimpleTableName($sequenceName);
                 return $this->db->useMaster(function (Connection $db) use ($sequenceName) {
                     return $db->createCommand("SELECT {$sequenceName}.CURRVAL FROM DUAL")->queryScalar();
                 });

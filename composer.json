@@ -1,7 +1,7 @@
 {
     "name": "titanium_iridium/yii2-oci8",
     "description": "Oci8 Driver for Yii2 (created by Apa Oww, forked/modified by bogdik and titanium_iridium)",
-    "version":"1.2.7",
+    "version":"1.2.8",
     "keywords": ["yii", "oci8"],
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
